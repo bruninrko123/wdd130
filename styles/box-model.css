@@ -1,0 +1,23 @@
+.callout {
+    max-width: 200px;
+    margin: 10px;
+    border: 1px transparent white;
+    background-color: blue;
+    text-decoration-color: aliceblue;
+	
+}
+
+.callout img {
+    object-position: right top;
+
+}
+
+blockquote {
+    border-bottom: 1cm dotted;
+
+	
+}
+
+cite {
+	padding-top: 10px;
+}
