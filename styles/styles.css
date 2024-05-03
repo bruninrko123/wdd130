@@ -58,3 +58,8 @@ main img{
 h1{
     font-family: 'Rock Salt';
 }
+
+aside img{
+    width: 200px;
+    height: auto;
+}
