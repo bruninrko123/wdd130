@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Rock+Salt&display=swap');
+body{
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+:root{
+    --primary-color: #A5F7F5;
+    --secondary-color: #A7A2A9;
+    --accent1-color: #575A5E;
+    --accent2-color: #221674;
+
+    --heading-font: 'Rock Salt', serif;
+    --paragraph-font: 'Open Sans', serif;
+
+    --nav-background-color:#F092DD ;
+    --nav-link-color: #9733E3;
+    --nav-hover-link-color:#FFAFF0 ;
+    --nav-hover-background-color: var(--nav-background-color) ;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: var(--heading-font);
+    color: black;
+}
+
+header{
+    padding: 10px;
+    background-color: var(--secondary-color);
+}
+
+p{
+    padding: 15px;
+}
+
+nav{
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+
+}
+
+nav a{
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited{
+    color:var(--nav-link-color);
+
+}
+
+nav a:hover{
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
