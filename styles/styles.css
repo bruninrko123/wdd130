@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rock+Salt&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
 nav {
     background-color: steelblue;
     padding: 10px;
@@ -32,12 +39,9 @@ main{
 }
 
 aside{
-    width: 200px;
+    width: 250px;
     margin: 10px;
-    border: dotted 1px;
-    padding: 1rem;
-    background-color: #685fdd ;
-    color: azure;
+    position: relative;
 }
 
 footer{
@@ -53,6 +57,7 @@ background-color: azure;
 main img{
     width: 150px;
     height: auto;
+    float: right;
 }
 
 h1{
@@ -62,4 +67,24 @@ h1{
 aside img{
     width: 200px;
     height: auto;
+    
 }
+
+aside h2{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: rgb(210, 212, 213);
+}
+
+
+/* Class Selectors */
+
+.box{
+    margin: 1rem;
+    border: dotted 1px;
+    padding: 1rem;
+    background-color: rgb(88, 180, 180);
+    color: black;
+}
+
