@@ -19,7 +19,6 @@
 
 h1,h2{
     font-family: var(--heading-font);
-    text-decoration: #9733E3;
     color: aqua;
 }
 
@@ -69,6 +68,8 @@ article img{
 
 
 article{
-    background-color: #ab0a8b;
+    background-color: var(--secondary-color);
     
 }
+
+/*ab0a8b*/
