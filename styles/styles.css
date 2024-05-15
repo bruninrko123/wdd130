@@ -16,10 +16,11 @@ nav {
 }
 
 nav a {
-    color: white;
+    color: rgb(255, 255, 255);
     display:block;
     padding: 20px;
     font-size: 1rem;
+    font-weight: 700;
     text-decoration: none;
 }
 
@@ -45,12 +46,22 @@ main{
     
     }
 
+main p{
+    padding: 2rem;
+    font-size: 1.2rem;
+}
+
 aside{
     width: 250px;
     margin: 10px;
     position: relative;
     grid-column: 1;
     grid-row: 1;
+}
+
+aside p{
+    color: rgb(0, 0, 0);
+    font-size: 1.2rem;
 }
 
 footer{
@@ -95,8 +106,12 @@ aside h2{
     padding: 1rem;
     background-color: rgb(88, 180, 180);
     color: black;
+    
 }
 
+.box a{
+    color: rgb(0, 0, 0);
+}
 header, .grid,  footer{
     max-width: 840px;
    margin: 0 auto;
@@ -104,7 +119,7 @@ header, .grid,  footer{
 
 main h1{
     border-bottom:  1px solid blue;
-    
+    color: rgb(25, 0, 254);
     
 }
 
@@ -113,7 +128,6 @@ main h1{
     grid-template-columns: 20rem 1fr;
    
 }
-
 
 
 
