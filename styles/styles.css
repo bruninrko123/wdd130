@@ -112,9 +112,10 @@ aside h2{
 .box a{
     color: rgb(0, 0, 0);
 }
+
 header, .grid,  footer{
     max-width: 840px;
-   margin: 0 auto;
+    margin: 0 auto;
 }
 
 main h1{
