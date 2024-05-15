@@ -8,14 +8,19 @@
 }
 
 nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
     background-color: steelblue;
-    padding: 10px;
+    padding: 1rem;
 }
 
 nav a {
     color: white;
-    display: block;
+    display:block;
     padding: 20px;
+    font-size: 1rem;
+    text-decoration: none;
 }
 
 h1 {
@@ -35,13 +40,17 @@ p {
 }
 
 main{
-    max-width: 50%;
-}
+    grid-column: 2;
+    padding: 10px;
+    
+    }
 
 aside{
     width: 250px;
     margin: 10px;
     position: relative;
+    grid-column: 1;
+    grid-row: 1;
 }
 
 footer{
@@ -87,4 +96,24 @@ aside h2{
     background-color: rgb(88, 180, 180);
     color: black;
 }
+
+header, footer, .grid{
+    max-width: 840px;
+   margin: 0 auto;
+}
+
+main h1{
+    border-bottom:  1px solid blue;
+    
+    
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 20rem 2fr;
+   
+}
+
+
+
 
