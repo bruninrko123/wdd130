@@ -97,7 +97,7 @@ aside h2{
     color: black;
 }
 
-header, footer, .grid{
+header, .grid,  footer{
     max-width: 840px;
    margin: 0 auto;
 }
@@ -110,7 +110,7 @@ main h1{
 
 .grid{
     display: grid;
-    grid-template-columns: 20rem 2fr;
+    grid-template-columns: 20rem 1fr;
    
 }
 
