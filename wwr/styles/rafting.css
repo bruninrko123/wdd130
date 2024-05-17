@@ -19,7 +19,7 @@
 
 h1,h2{
     font-family: var(--heading-font);
-    color: aqua;
+    color: rgb(17, 0, 255);
 }
 
 p{
@@ -27,11 +27,33 @@ p{
 }
 
 body{
-    max-width: 50%;
+   max-width: 100%;
+   
 }
+
+
 
 footer a:link{
     text-decoration: none;
+}
+
+footer a{
+display: flex;
+grid-column: 2;
+
+}
+
+footer p {
+    justify-self: center;
+}
+.icons{ 
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
 }
 
 .hero div{
@@ -39,20 +61,21 @@ footer a:link{
 }
 #background{
     display: block;
-    width: 100%;
+    width: 1000px;
     height: auto;
+    opacity: 0.5;
 }
 
 .hero h1{
     position: absolute;
     left: 40px;
-    top: 70px;
+    top: 100px;
 }
 
 .hero article{
     position: absolute;
     left: 40px;
-    top: 400px;
+    top: 630px;
     max-width: 40%
 
 
@@ -68,8 +91,104 @@ article img{
 
 
 article{
-    background-color: var(--secondary-color);
+    background-color: #575A5E;
+    color: white;
     
 }
+
+header{
+    
+	display: grid;
+	grid-template-columns: 150px 1fr;
+	align-items: center;
+	border-bottom: 1px solid #ccc;
+	max-width: 840px;
+    background-color:rgb(0, 51, 94);
+    padding: 0.5rem;
+    font-weight: 700;
+   
+}
+
+header img{
+    margin: 0 0.25rem 0 1rem;
+	width: 120px;
+	height: auto;
+}
+
+nav{
+    text-align: right;
+    
+
+}
+
+.navigation{
+    display: flex;
+	list-style: none;
+    
+}
+
+.navigation li{
+    flex: 1 1 100%;
+}
+.navigation a {
+    display: block;
+	color: rgb(255, 255, 255);
+	padding: 20px;
+	text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.history h2{
+    border-bottom: 1px solid black;
+  
+}
+
+.history div{
+    
+    
+}
+
+.historyblock{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: space-between;
+    border: 1px solid black;
+    align-items: center;;
+    justify-items: center;
+    background-color: #575A5E;
+    color: white;
+}
+.history img{
+    grid-column: 2;
+}
+
+.paragraph1{
+    grid-column: 1;
+    padding: 1rem;
+    ;
+}
+
+.paragraph2{
+    grid-column: 3;
+    padding: 1rem;
+}
+
+
+.adventuredivision{
+    display: flex;
+    
+}
+
+
+figure img{
+    height: 150px;
+    
+}
+
+.todo{
+    justify-items: center;;
+}
+
 
 /*ab0a8b*/

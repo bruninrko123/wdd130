@@ -11,13 +11,16 @@
     <body>
         <header>
             <img src="images/logo.png" alt="Logo, a paddle." width="200">
-            <nav>
-                <a href="index.html">index.html</a>
-                <a href="about.html">about.html</a>
-                <a href="trips.html">trips.html</a>
-                <a href="contact.html">contact.html</a>
+            <nav >
+                <ul class="navigation">
+                    <li><a href="index.html">index.html</a></li>
+                    <li><a href="about.html">about.html</a></li>
+                    <li><a href="trips.html">trips.html</a></li>
+                    <li><a href="contact.html">contact.html</a></li>
+                </ul>
             </nav>
         </header>
+      
         <main>
             <!-- div style="background-image: url('images/rafting-background.avif');" class="hero"> -->
             <div class="hero">
@@ -29,26 +32,36 @@
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, tempora!</p>
                 </article>
             </div>
-                <section>
+                <section class = "history">
                     <h2>History</h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor, unde! Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, aliquam!</p>
-
+                    <div class = "historyblock">
+                        <p class="paragraph1">Bruno's Rafting has been in the market for years. We have provided quality service, that is safe and fun for our clients
+                        and offered them the best intructors and the best boats, paddles, safety equipment and etc. </p>
+                        <img src ="images/first_boat.jpeg" alt="First small company boat">
+                        <p class="paragraph2">The company started yeas ago when Bruno, as 19 year old boy, bought a boat with his first salary from working
+                        in a grocery shop. He started rafting with some of his friends, who were more experienced and he eventually 
+                        started taking different people on rafting journeys and to charge them for that.</p>
+                    </div> 
                 </section>
-                <section>
+                <section class = "adventuresection">
                     <h2>Adventure Awaits You!</h2>
-                    <img src="images/rep-rafting-1.avif" alt="rafting image 1">
-                    <img src="images/rep-rafting-2.avif" alt="rafting image 2">
-                    <img src="images/rep-rafting-3.jpg" alt="rafting image 3">
-                    <img src="images/rep-rafting-4.jpg" alt="rafting image 4">
-                    <img src="images/rep-rafting-5.jpg" alt="rafting image 5">
-                </section>
-            
+                    <div class="adventuredivision">
+                        <figure><img src="images/rep-rafting-1.avif" alt="rafting image 1"> <figcaption> Company's one year mark 2009</figcaption></figure>
+                        <figure><img src="images/rep-rafting-2.avif" alt="rafting image 2"><figcaption> Rafting with the governor</figcaption></figure>
+                        <figure><img src="images/rep-rafting-3.jpg" alt="rafting image 3"><figcaption> Two new boats</figcaption></figure>               
+                        <figure><img src="images/rep-rafting-4.jpg" alt="rafting image 4"><figcaption> The founder's family rafting</figcaption></figure>              
+                         <figure><img src="images/rep-rafting-5.jpg" alt="rafting image 5"><figcaption> 10 year's mark</figcaption></figure>          
+                    </div>         
+                </section>            
         </main>
+      
         <footer>
             <p>©2024  Bruno's rafting  Bruno dos Santos Alves</p>
+           <div class ="icons">
             <a href="https://www.facebook.com/"><img src="images/facebook-anchor.webp" alt="facebook anchor"></a>
             <a href="https://www.instagram.com/"><img src="images/instagram-anchor.webp" alt="instagram anchor"></a>
             <a href="https://www.whatsapp.com/"> <img src="images/whatsapp-anchor.webp" alt="whatssap anchor"></a>
+           </div> 
         </footer>
     </body>
 </html>
