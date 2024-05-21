@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+input, textarea, select{
+    font-family: "Titillium Web";
+   background-color: aquamarine;
+   padding: 0.3rem;
+   font-size: 1.3rem;
+}
+
+button{
+    font-weight: 600;
+    margin: 5px auto;
+    padding: 5px;
+}
+
+button:hover{
+    background-color: aqua;
+    
+}
+
+input{
+    font-family: 'Shadows Into Light';
+    font-weight: 700;
+}
+
+label{
+    font-family:'Times New Roman', Times, serif;
+    text-align: right;
+    padding-right: 0.2rem;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header{
+    text-align: center;
+    padding: 10px;
+}
+
+legend{
+    color: white;
+    background-color: rgb(0, 0, 0);
+    font-weight: 700;
+    padding: 0.4rem;
+}
+
+form{
+    background-color: beige;
+    padding: 10px;
+    display: grid;
+    grid-gap: 15px;
+    border-radius: 0.5rem;;
+}
+
+input[type="checkbox"] {
+    width:1.4rem;
+    height: 1.4rem;
+    vertical-align: bottom;
+
+}
+
+footer{
+    text-align: center;
+    padding-top: 3rem;
+    border-bottom: 1px solid black;
+}
+
+.form-item{
+    display: grid;
+    align-items: center;
+    ;
+    
+}
+
+.form-item-column1 {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    margin-right: 10px;
+}
+
+.form-item-column1 label{
+    text-align: left;
+    font-size: 1.5rem;
+}
+
+.form-item-column2{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+
+}
+.form-item-column2 label{
+    font-size: 1.5rem;
+    margin: 0 ;
+    text-align: left;
+}
+
+.form-item-column2 input{
+    margin-left: 10px;
+}
+
+label[for="places"]{
+    font-size: 1.5rem;
+}
