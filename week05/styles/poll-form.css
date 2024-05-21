@@ -108,3 +108,7 @@ footer{
 label[for="places"]{
     font-size: 1.5rem;
 }
+
+textarea[id="places"]{
+    width:70%;
+}
