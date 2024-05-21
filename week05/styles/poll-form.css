@@ -26,6 +26,7 @@ input{
 label{
     font-family:'Times New Roman', Times, serif;
     text-align: right;
+    font-size: 1.5rem;
     padding-right: 0.2rem;
 }
 
