@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width,initial-scale=1.0">
+            <title>WDD 130 | HTML form - User Poll</title>
+            <meta name="description" content="quiz page for the course page">
+            <meta name="author" content="Bruno dos Santos Alves">
+            <link rel="stylesheet" href="styles/quiz.css">
+    </head>
+    <body>
+        <header>
+            <h1>Check your understanding quiz | HTML and CSS</h1>
+        </header>
+        <main>
+            <form>
+                <div class="all">
+                <fieldset class="HTML">
+                    <legend>HTMl</legend>
+                    
+                        <label for="q1"> how do you set the 'meta' so that the page adjusts to the device's size?</label>
+                        <input type="text" id="q1" name="q1">
+                   
+                    
+                        <label for ="q2">Write the main, basic structure inside a body element.</label>
+                        <textarea id="q2" name="q2" placeholder="Hint: 3 elements are necessary"></textarea>
+                  
+                </fieldset>
+                <fieldset class="CSS">
+                    <legend>CSS</legend>
+                   
+                        <label for="q3">Which of the following is the <strong> correct</strong> way to set a class selector</label>
+                        <select id="q3" name="q3">
+                            <option value="#class">#class{</option>
+                            <option value=".class">.class{</option>
+                            <option value="div">class{</option>
+                            <option value="doctype">-*class{</option>
+                        </select>
+                 
+                        <img src="images/grid-image.png" width="200px" height="auto">
+                        <label for="q4">"grid-template-columns: 1fr 1fr;" . Given this line of code, What is the ratio between the widths of these two columns?</label>
+                        <input type="number" id="q4" name="q4">
+                   
+                </fieldset>
+            <button  type="submit">Submit Quiz</button>
+                </div>
+            </form>
+        </main>
+        <footer>
+
+        </footer>
+    </body>
+</html>

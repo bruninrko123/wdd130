@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+
+*{
+    
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+main{
+    max-width: 800px;
+    margin: 0 auto;
+}
+header{
+    text-align: center;
+}
+
+header h1{
+    border-bottom: 1px solid black;
+    font-weight: 1000;
+    font-family: "Handlee";
+    font-size: 2rem;
+}
+
+
+.HTML{
+    display: grid;
+    grid-template-rows: 1fr 1fr ;
+    grid-gap: 10px;
+    
+}
+
+.CSS{
+    display: grid;
+    grid-gap: 10px;
+}
+
+fieldset{
+   
+    color: rgb(0, 0, 0);
+    font-size: 1.3rem;
+    font-weight: 700;
+    border: 0;
+}
+
+legend{
+    background-color: red;
+}
+
+fieldset input, fieldset textarea, fieldset select{
+    width: 100%;
+    
+}
+
+fieldset select{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+fieldset label{
+    text-align: left;
+}
+
+.all{
+    background-color: rgb(144, 251, 255) ;
+    display: grid;
+}
+
+button{
+   margin: 0 auto;
+   width: 200px;
+
+}
+
+
+
+fieldset img{
+    margin: 0 auto;
+}
+
