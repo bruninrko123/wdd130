@@ -215,6 +215,7 @@ figure img{
     grid-gap: 5px;
     background-color: aqua;
     border-bottom: 10px solid black;
+    height: 500px;
 }
 
 .personalinfo{
